@@ -1,8 +1,9 @@
 /*output a string*/
 #include <stdio.h>
 /**
- *main function is the entry point
- * return is 0
+ *main-entry point
+ *
+ *Return:always 0
  */
 int main(void)
 {
