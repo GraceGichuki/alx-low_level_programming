@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFILE -std=intel
+gcc -S $CFILE -x intel
