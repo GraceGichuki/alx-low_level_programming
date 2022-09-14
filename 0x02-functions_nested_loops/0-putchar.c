@@ -6,7 +6,7 @@
  * Return:zero
  */
 
-int main(char* a)
+int main(char *a)
 {
 	printf(test1("_putchar"));
 	return (0);
