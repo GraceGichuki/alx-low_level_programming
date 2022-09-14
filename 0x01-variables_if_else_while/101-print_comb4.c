@@ -11,19 +11,19 @@ int main(void)
 	int k;
 
 	for (i = '0'; i <= '9'; i++)
-		for (j = '0'; j <= '9' j++;
-			       for (k = '0'; k <= '9';)
-		       			if (j < k && j != k && i != k && i < j && i != j) 
-					{
-						putchar (i);
-						putchar (j);
-						putchar (k);
-						k++;
-						putchar (',');
-						putchar (' ');
-					}
-					else
-						k++;
+	for (j = '0'; j <= '9' j++)
+	for (k = '0'; k <= '9';)
+		if (j < k && j != k && i != k && i < j && i != j) 
+		{
+			putchar (i);
+			putchar (j);
+			putchar (k);
+			k++;
+			putchar (',');
+			putchar (' ');
+		}
+		else
+			k++;
 	return (0);
 }
 
