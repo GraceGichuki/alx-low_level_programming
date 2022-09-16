@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *print_square - print a square
+ * print_square - print a square
  *
  * Return: nothing
  */
@@ -11,7 +11,7 @@ void print_square(int size)
 	int i;
 	int j;
 
-	if (size <= 0
+	if (size <= 0)
 		_putchar('\n');
 	else
 	{
