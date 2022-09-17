@@ -24,8 +24,10 @@ void print_times_table(int n)
 					_putchar((m / 10) % 10 + '0');
 				}
 				else if (m > 9)
+					_putchar(' ');
 					_putchar(m / 10 + '0');
 				else if (j != 0)
+					_putchar(' ');
 					_putchar(' ');
 				_putchar(m % 10 + '0');
 			}
