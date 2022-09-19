@@ -11,7 +11,7 @@ int main(void)
 	int num1, num2, num3, sum;
 
 	num1 = 0;
-	num2 = 1
+	num2 = 1;
 
 	for (sum = 0; sum < 4000000; sum++)
 	{
