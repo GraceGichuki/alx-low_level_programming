@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int num1, num2, num3, sum, n;
+	long int num1, num2, num3, sum, n;
 
 	num1 = 0;
 	num2 = 1;
@@ -22,6 +22,6 @@ int main(void)
 		num1 = num2;
 		num2 = num3;
 	}
-	printf("%d\n", sum);
+	printf("%ld\n", sum);
 	return (0);
 }
