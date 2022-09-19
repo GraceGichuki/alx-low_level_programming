@@ -22,6 +22,6 @@ int main(void)
 		num1 = num2;
 		num2 = num3;
 	}
-	printf("%lld\n");
+	printf("%d\n");
 	return (0);
 }
