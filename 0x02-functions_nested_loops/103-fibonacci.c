@@ -8,13 +8,12 @@
 
 int main(void)
 {
-	long int num1, num2, num3, sum, n;
+	int num1, num2, num3, sum;
 
 	num1 = 0;
-	num2 = 1;
-	sum = 0;
+	num2 = 1
 
-	for (n = 0; n < 4000000; n++)
+	for (sum = 0; sum < 4000000; sum++)
 	{
 		num3 = num1 + num2;
 		if (num3 % 2 == 0)
@@ -22,6 +21,6 @@ int main(void)
 		num1 = num2;
 		num2 = num3;
 	}
-	printf("%ld\n", sum);
+	printf("%d\n", sum);
 	return (0);
 }
