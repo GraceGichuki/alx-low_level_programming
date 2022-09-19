@@ -14,7 +14,7 @@ int main(void)
 	num2 = 1;
 	sum = 0;
 
-	for (n =0; n < 4000000; n++)
+	for (n = 0; n < 4000000; n++)
 	{
 		num3 = num1 + num2;
 		if (num3 % 2 == 0)
