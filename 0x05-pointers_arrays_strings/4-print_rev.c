@@ -1,4 +1,5 @@
 #include "main.h"
+#include "2-strlen.c"
 /**
  * print_rev - reverse string folllowed by a new line
  * @s: string to be reversed
