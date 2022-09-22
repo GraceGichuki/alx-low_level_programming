@@ -14,7 +14,7 @@ int _strlen(char *s)
 		if (*s != '\0')
 		{
 			s++;
-			continue
+			continue;
 		}
 		else
 			break;
