@@ -9,11 +9,12 @@
 int main(void)
 {
 	unsigned int num1, num2, num3, sum;
+	int i;
 
-	num1 = 1;
-	num2 = 2;
+	num1 = 0;
+	num2 = 1;
 
-	for (sum = 0; sum <= 4000000; sum++)
+	for (i = 0; i < 4000000; i++)
 	{
 		num3 = num1 + num2;
 		if (num3 % 2 == 0)
