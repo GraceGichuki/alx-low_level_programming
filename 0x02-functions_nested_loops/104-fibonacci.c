@@ -15,8 +15,6 @@ int main(void)
 	for (n = 0; n < 99; n++)
 	{
 		num3 = num1 + num2;
-		if (num3 < 0)
-			num3 = num3 * -1;
 		printf("%d", num3);
 		if (n != 98)
 			printf(", ");
