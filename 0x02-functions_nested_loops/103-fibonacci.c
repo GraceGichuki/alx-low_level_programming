@@ -10,8 +10,8 @@ int main(void)
 {
 	unsigned int num1, num2, num3, sum;
 
-	num1 = 0;
-	num2 = 1;
+	num1 = 1;
+	num2 = 2;
 
 	for (sum = 0; sum <= 4000000; sum++)
 	{
