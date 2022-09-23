@@ -7,7 +7,8 @@
 
 int main(void)
 {
-	int num1, num2, num3, n;
+	float num1, num2, num3;
+	int n;
 
 	num1 = 0;
 	num2 = 1;
@@ -17,7 +18,7 @@ int main(void)
 		num3 = num1 + num2;
 		if (num3 < 0)
 			num3 = num3 * -1;
-		printf("%d", num3);
+		printf("%f", num3);
 		if (n != 98)
 			printf(", ");
 		num1 = num2;

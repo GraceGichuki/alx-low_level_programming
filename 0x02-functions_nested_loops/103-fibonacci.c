@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	float num1, num2, num3, sum;
+	int num1, num2, num3, sum;
 
 	num1 = 0;
 	num2 = 1;
@@ -16,11 +16,11 @@ int main(void)
 	for (sum = 0; sum < 4000000; sum++)
 	{
 		num3 = num1 + num2;
-		if (num3 % float 2 == 0)
+		if (num3 % 2 == 0)
 			sum = sum + num3;
 		num1 = num2;
 		num2 = num3;
 	}
-	printf("%f\n", sum);
+	printf("%d\n", sum);
 	return (0);
 }
