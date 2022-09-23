@@ -13,7 +13,7 @@ int main(void)
 	num1 = 0;
 	num2 = 1;
 
-	for (sum = 0; sum < 4000000; sum++)
+	for (sum = 0; sum <= 4000000; sum++)
 	{
 		num3 = num1 + num2;
 		if (num3 % 2 == 0)
