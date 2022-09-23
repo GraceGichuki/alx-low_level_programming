@@ -16,7 +16,7 @@ int main(void)
 	for (sum = 0; sum < 4000000; sum++)
 	{
 		num3 = num1 + num2;
-		if (num3 % 2.0 == 0)
+		if (num3 % float 2 == 0)
 			sum = sum + num3;
 		num1 = num2;
 		num2 = num3;
