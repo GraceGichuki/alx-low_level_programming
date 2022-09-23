@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int num1, num2, num3, n;
+	Unsigned int num1, num2, num3, n;
 
 	num1 = 0;
 	num2 = 1;
@@ -15,7 +15,7 @@ int main(void)
 	for (n = 0; n < 99; n++)
 	{
 		num3 = num1 + num2;
-		printf("%d", num3);
+		printf("%u", num3);
 		if (n != 98)
 			printf(", ");
 		num1 = num2;
