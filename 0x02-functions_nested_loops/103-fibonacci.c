@@ -14,11 +14,11 @@ int main(void)
 	num1 = 0;
 	num2 = 1;
 
-	for (i = 0; ; i++)
+	num3 = num1 + num2;
+
+	for (i = 0; num3 <= 4000000; i++)
 	{
 		num3 = num1 + num2;
-		if (num3 > 4000000)
-			break;
 		if (num3 % 2 == 0)
 			sum = sum + num3;
 		num1 = num2;
