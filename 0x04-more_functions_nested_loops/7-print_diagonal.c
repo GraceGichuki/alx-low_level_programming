@@ -1,4 +1,5 @@
 #include "main.h"
+#include "6-print_line.c"
 
 /**
  * print_diagonal - draws a diagonal line
