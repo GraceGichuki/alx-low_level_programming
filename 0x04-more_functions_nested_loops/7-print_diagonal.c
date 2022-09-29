@@ -15,8 +15,6 @@ void printSpace(int n)
 	{
 		_putchar(' ');
 	}
-	_putchar('\\');
-	_putchar('\n');
 }
 
 /**
@@ -37,5 +35,7 @@ void print_diagonal(int n)
 	for (k = 1; k < n + 1; k++)
 		{
 			printSpace(k);
+			_putchar('\\');
+			_putchar('\n');
 		}
 }
