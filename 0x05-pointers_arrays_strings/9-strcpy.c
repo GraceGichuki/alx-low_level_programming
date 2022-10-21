@@ -13,6 +13,7 @@ char *_strcpy(char *dest, char *src)
 	for (i = 0; ; i++)
 	{
 		*dest++ = *src++;
+		_putchar(*dest);
 		if (*src == 0)
 			break;
 	}
