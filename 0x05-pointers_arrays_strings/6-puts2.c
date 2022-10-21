@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * puts2 - print all characters in a string in order
- * str: charater array
+ * @str: charater array
  *
  * Return: nothing
  */
