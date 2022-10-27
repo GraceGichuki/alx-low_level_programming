@@ -9,8 +9,9 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	for (n = 0; dest[n]; n++)
-		src[n] = dest[n];
-	src[n] = '\0';
-	return (src);
+	for (i = 0; i < n && dest[i]; i++)
+		dest[i] = src[i];
+	if ( i < n - 1)
+		dest[i] = '\0';
+	return (dest);
 }
