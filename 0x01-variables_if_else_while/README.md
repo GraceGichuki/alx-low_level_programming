@@ -8,4 +8,5 @@ Prints the alphabet in lowercase, followed by a new line.
 Prints the alphabet in lowercase, and then in uppercase, followed by a new line.  
 * [**4-print_alphabt.c**](https://github.com/GraceGichuki/alx-low_level_programming/blob/master/0x01-variables_if_else_while/4-print_alphabt.c)  
 Prints the alphabet (except the letters q ane e) in lowercase, followed by a new line.  
-
+* [**5-print_numbers.c**](https://github.com/GraceGichuki/alx-low_level_programming/blob/master/0x01-variables_if_else_while/5-print_numbers.c)  
+Prints all single digit numbers of base 10 starting from 0, followed by a new line.
