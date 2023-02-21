@@ -18,7 +18,7 @@ int main(void)
 		printf("%ld", num1);
 		num1 = num2;
 		num2 = num3;
-		if (i != 49)
+		if (n != 49)
 			printf(", ");
 	}
 	putchar('\n');
