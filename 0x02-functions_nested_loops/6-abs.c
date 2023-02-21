@@ -10,12 +10,8 @@ int _abs(int n)
 	int absoluteValue;
 
 	if (n >= 0)
-	{
 		absoluteValue = n;
-	}
 	else
-	{
 		absoluteValue = n * -1;
-	}
 	return (absoluteValue);
 }
